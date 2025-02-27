@@ -5,7 +5,4 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/frontend-reto-reactjs/",
-  build: {
-    outDir: "dist",
-  },
 });
