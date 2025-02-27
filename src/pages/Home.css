@@ -1,0 +1,37 @@
+.todo-container {
+  width: 900px;
+  height: 577px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 12px #0000001f;
+  border-radius: 20px;
+  opacity: 1;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+.todo-header {
+  text-align: center;
+  font: normal normal bold 40px/44px Montserrat;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  margin-bottom: 13px;
+}
+
+.todo-description {
+  text-align: center;
+  font: normal normal normal 18px/26px Montserrat;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+
+.todo-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-delete-button {
+  display: flex;
+  gap: 10px;
+}
